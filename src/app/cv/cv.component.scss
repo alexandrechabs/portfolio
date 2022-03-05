@@ -1,0 +1,111 @@
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #105572;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+.skills .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #050d18;
+}
+h3 {
+    font-family: "Raleway", sans-serif;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #105572;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.year{
+    background-color: #e4edf9; 
+    width: 378px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+.year_education{
+    background-color: #e4edf9; 
+    width: 250px;
+    padding-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+}
+.title{
+    width: 290px; 
+    padding-left: 5px;
+    margin-right: 5px;
+}
+button{
+    height: 40px;
+}
+.langue {
+    margin-bottom: 15px;
+}
+
+.collapse.in {
+    width: 100%;
+    display: block;
+}
+.collapse {
+    width: 100%;
+}
+.collapsing {
+    width: 100%;
+}
+.education {
+    padding-left: 60px;
+}
+.img_experience {
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.details {
+    color: #fff;
+    background-color: #0b4987;
+}
+.details:hover {
+    color: #fff;
+    background-color: #0b59a7;
+}
+
+@media only screen and (max-width: 600px) {
+    .year{
+        background-color: #e4edf9; 
+        width: 278px;
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+    .title {
+        width: 260px;
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+    .btn {
+        width: 40px;
+        height: 38px;
+    }
+    .img_experience {
+        display: none;
+    }
+}

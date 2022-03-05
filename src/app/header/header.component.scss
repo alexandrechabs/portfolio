@@ -1,0 +1,29 @@
+li:hover,.home:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+nav{
+  background-image: linear-gradient(90deg, rgb(11, 1, 104) 0%, rgb(245, 73, 73) 50%, rgb(11, 1, 104) 100%);
+}
+i{
+  font-size: 24px;
+  padding-right: 6px;
+  color: #6f7180;
+  
+}
+a{
+  display: flex;
+  align-items: center;
+  
+  padding: 3px 4px;
+  margin-bottom: 2px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+li{
+  display: inline-flex;
+}
+
+.bx {
+color: #bbbbbb;
+}
